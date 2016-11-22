@@ -10,6 +10,6 @@ The data was used from the [Human Activity Recognition Using Smartphones](http:/
 There are 4 files attached to this repository:
 
 1. README.md - a file which gives an overview of the content of this repository.
-2. CodeBook.md - a code book that describes the variables, the data, and any transformations or work performed to clean up the data
+2. CodeBook.MD - a code book that describes the variables, the data, and any transformations or work performed to clean up the data
 3. run_analysis.R - the script used to derive the clean data set from the input files
 4. Tidy.txt - the tidy data which is the output after running the R script
