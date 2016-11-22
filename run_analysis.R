@@ -20,7 +20,7 @@ x_test <- read.table("./data/UCI HAR Dataset/test/X_test.txt")
 y_test <- read.table("./data/UCI HAR Dataset/test/y_test.txt")
 subject_test <- read.table("./data/UCI HAR Dataset/test/subject_test.txt")
 features <- read.table('./data/UCI HAR Dataset/features.txt')
-activityLabels = read.table('./data/UCI HAR Dataset/activity_labels.txt')
+activityLabels <- read.table('./data/UCI HAR Dataset/activity_labels.txt')
 
 ## This part of the code "1) merges the training and the test sets to create one data set."
 
@@ -37,7 +37,8 @@ columnNames <- colnames(x_set)
 mean_sd <-(grepl("mean.." , columnNames) | grepl("std.." , columnNames) )
 x_setMeanSd<- x_set[,mean_sd==TRUE]
 
-## This part of the code "3) Uses descriptive activity names to name the activities in the data set
+## This part of the code "3) Uses descriptive activity names to name the activities in the data set."
+## The activity ID was replaced with the information in Activity Type
 
 y_set[,1] <- activityLabels[y_set[,1],2]
 colnames(y_set)<- "activityType"
@@ -48,7 +49,7 @@ merge_all<-cbind(x_setMeanSd,y_set,subject_set)
 ## This part of the code "4) Appropriately labels the data set with descriptive variable names."
 ## There was not much changes because the variable names seemed explanatory.
 ## I just eliminated the extra "Body" in some variables and converted t to Time and f to Frequency
-## as explained in the Data Set information
+## as explained in the Data Set information.
 
 newcolnames<-gsub("BodyBody","Body",colnames(merge_all))
 newcolnames<-gsub("tBody","TimeBody",newcolnames)
@@ -57,7 +58,8 @@ newcolnames<-gsub("fBody","FreqBody",newcolnames)
 
 colnames(merge_all)<-newcolnames
 
-# This part of the code " 5) creates a second, independent tidy data set with the average of each variable for each activity and each subject."
+# This part of the code " 5) creates a second, independent tidy data set with the average of each variable for each activity and 
+# each subject."
 
 library(dplyr)
 library(tidyr)
