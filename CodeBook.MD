@@ -4,12 +4,15 @@ The tidy data set has 81 columns in all.
 
 The `subjectId` is the identifier for the subject.
 
-The `activityType` is one of the six descriptions for the specific activity type.
+The `activityType` is one of the six descriptions for the specific activity type (e.g. Laying, Sitting, Standing etc.)
 
 The 79 variables are the variables that contained mean or standard deviation values.
 t has been converted to Time to indicate "Time" domain and "f" has been converted to Freq" to indicate Frequency domain.
 Certain variable names with "BodyBody" has been simplified to "Body" term only.
 These were the only transformations made for the variable names.
+Acc is assumed to stand for acceleration and Gyro for Gyroscope.
+Reference for the data description has derived from the link
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 1.`TimeBodyAcc-mean()-X`
 
