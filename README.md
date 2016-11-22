@@ -14,5 +14,5 @@ There are 4 files attached to this repository:
 3. run_analysis.R - the script used to derive the clean data set from the input files
 4. Tidy.txt - the tidy data which is the output after running the R script
 
-For any concerns or future collaboration opportunities please contact me at
+For any concerns or future collaboration opportunities please contact me at my
 [LinkedIn Account](https://ph.linkedin.com/in/ojigayatin)
