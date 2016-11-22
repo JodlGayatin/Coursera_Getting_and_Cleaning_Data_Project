@@ -25,12 +25,12 @@ really a list containing a function to
 `subjectId`                     
 `activityType`                  
 
-*`TimeBodyAcc-mean()-X`      
-*`TimeBodyAcc-mean()-Y`          
-*`TimeBodyAcc-mean()-Z`
-*`TimeBodyAcc-std()-X`          
-*`TimeBodyAcc-std()-Y`           
-*`TimeBodyAcc-std()-Z`
+`TimeBodyAcc-mean()-X`
+`TimeBodyAcc-mean()-Y`
+`TimeBodyAcc-mean()-Z`
+`TimeBodyAcc-std()-X`
+`TimeBodyAcc-std()-Y`
+`TimeBodyAcc-std()-Z`
 *`TimeGravityAcc-mean()-X`
 *`TimeGravityAcc-mean()-Y`
 *`TimeGravityAcc-mean()-Z`
