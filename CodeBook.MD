@@ -23,7 +23,7 @@ The first function, `makeVector` creates a special "vector", which is
 really a list containing a function to
 
 `subjectId`                     
-`activityType`                  
+`activityType`      
 
 1.`TimeBodyAcc-mean()-X`
 2.`TimeBodyAcc-mean()-Y`
@@ -104,3 +104,4 @@ really a list containing a function to
 77.`FreqBodyGyroJerkMag-mean()`
 78.`FreqBodyGyroJerkMag-std()`
 79.`FreqBodyGyroJerkMag-meanFreq()`
+
