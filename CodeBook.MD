@@ -25,15 +25,16 @@ really a list containing a function to
 `subjectId`                     
 `activityType`                  
 
-`TimeBodyAcc-mean()-X`
-`TimeBodyAcc-mean()-Y`
-`TimeBodyAcc-mean()-Z`
-`TimeBodyAcc-std()-X`
-`TimeBodyAcc-std()-Y`
-`TimeBodyAcc-std()-Z`
-*`TimeGravityAcc-mean()-X`
-*`TimeGravityAcc-mean()-Y`
-*`TimeGravityAcc-mean()-Z`
+1. `TimeBodyAcc-mean()-X`
+2. `TimeBodyAcc-mean()-Y`
+3. `TimeBodyAcc-mean()-Z`
+4. `TimeBodyAcc-std()-X`
+5. `TimeBodyAcc-std()-Y`
+6. `TimeBodyAcc-std()-Z`
+7. `TimeGravityAcc-mean()-X`
+8. `TimeGravityAcc-mean()-Y`
+9. `TimeGravityAcc-mean()-Z`
+
 *`TimeGravityAcc-std()-X`
 *`TimeGravityAcc-std()-Y`
 *`TimeGravityAcc-std()-Z`
