@@ -10,9 +10,10 @@ The 79 variables are the variables that contained mean or standard deviation val
 t has been converted to Time to indicate "Time" domain and "f" has been converted to Freq" to indicate Frequency domain.
 Certain variable names with "BodyBody" has been simplified to "Body" term only.
 These were the only transformations made for the variable names.
-Acc is assumed to stand for acceleration and Gyro for Gyroscope.
-Reference for the data description has derived from the link
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Acc is assumed to stand for acceleration and Gyro for gyroscope.
+
+Reference for the data description has been derived from the link
+[Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 1.`TimeBodyAcc-mean()-X`
 
